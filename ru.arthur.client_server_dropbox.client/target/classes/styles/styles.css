@@ -1,0 +1,12 @@
+
+.myclass {
+    -fx-background-color: linear-gradient(#ffffff 0%, #33f 100%);;
+}
+
+.myclass:hover {
+    -fx-background-color: linear-gradient(#ffffff 0%, #f33 100%);;
+}
+
+.myclass:pressed {
+    -fx-background-color: linear-gradient(#ffffff 0%, #3f3 100%);;
+}
