@@ -15,7 +15,7 @@
         <mediaPlayer>
             <MediaPlayer autoPlay="true" cycleCount="10">
                 <media>
-                    <Media source="file:/D:/matrix.mp4" />
+                    <Media source="@files/matrix.mp4" />
                 </media>
             </MediaPlayer>
         </mediaPlayer>
