@@ -1,6 +1,4 @@
-import java.net.Socket;
 import java.nio.channels.SelectionKey;
-import java.nio.channels.SocketChannel;
 
 /**
  * Created by Tom on 29.11.2017.
@@ -9,11 +7,9 @@ public class User {
     private boolean isAuthorized;
     private int access;
     private String homeFolder;
-    private SelectionKey client;
 
-    User(SelectionKey client){
+    User(){
         this.isAuthorized = false;
-        this.client = client;
     }
 
     void authError() {
@@ -49,11 +45,11 @@ public class User {
         this.homeFolder = homeFolder;
     }
 
-    public SelectionKey getClient() {
-        return client;
+    public void getClient() {
+        return ;
     }
 
     public void setClient(SelectionKey client) {
-        this.client = client;
+        ;
     }
 }

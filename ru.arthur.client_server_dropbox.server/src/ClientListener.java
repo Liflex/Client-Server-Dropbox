@@ -10,16 +10,17 @@ import java.util.List;
 
 /**
  * Created by Tom on 30.11.2017.
+ * ТУТ ВСЯКАЯ ХРЕНЬ КОТОРУЮ Я ЕЩЕ НЕ АДОПТИРОВАЛ
  */
 public class ClientListener {
     private String nick;
-    private ServerSocketThread serverSocketThread;
+    private Server server;
     private Socket socket;
     private ObjectInputStream in;
     private ObjectOutputStream out;
 
-    ClientListener(ServerSocketThread serverSocketThread, Socket socket){
-        this.serverSocketThread = serverSocketThread;
+    ClientListener(Server server, Socket socket){
+        this.server = server;
         this.socket = socket;
         try {
             in = new ObjectInputStream(socket.getInputStream());

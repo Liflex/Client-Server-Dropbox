@@ -1,12 +1,15 @@
-import java.io.File;
-import java.util.List;
 
 public class ServerMain {
-    static private final int port = 5555;
-    static private ServerSocketThread serverSocketThread;
+    static private Server server;
 
     public static void main(String[] args) {
-        serverSocketThread = new ServerSocketThread(2000, port);
-        serverSocketThread.start();
+        int port;
+        if (args.length > 0) {
+            port = Integer.parseInt(args[0]);
+        } else {
+            port = 8080;
+        }
+        server = new Server(port);
+        server.start();
     }
 }

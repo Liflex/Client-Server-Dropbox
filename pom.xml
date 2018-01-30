@@ -21,9 +21,9 @@
         </plugins>
     </build>
     <modules>
-        <module>server</module>
-        <module>common</module>
-        <module>client</module>
+        <module>ru.arthur.client_server_dropbox.server</module>
+        <module>ru.arthur.client_server_dropbox.common</module>
+        <module>ru.arthur.client_server_dropbox.client</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc -->
@@ -37,6 +37,11 @@
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.7.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.20.Final</version>
         </dependency>
 
     </dependencies>

@@ -13,7 +13,6 @@ public class ClientLauncher extends Application{
 
     static Stage window;
     private Scene home;
-    private Scene home1;
     private final DateFormat dateFormat = new SimpleDateFormat("HH:mm:ss - ");
 
     @Override
