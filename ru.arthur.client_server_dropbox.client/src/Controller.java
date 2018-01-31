@@ -5,7 +5,6 @@ import javafx.scene.layout.AnchorPane;
 
 import java.io.IOException;
 import java.net.Socket;
-import java.nio.channels.SocketChannel;
 
 
 public class Controller {
@@ -24,9 +23,9 @@ public class Controller {
     public void tryToLogin() throws Exception {
         try {
             System.out.println("Пытаемся соединиться");
-            Socket socket = new Socket("localhost",5555);
+            Socket socket = new Socket("localhost",8080);
             System.out.println("Соединились =");
-            new SocketThread("SocketThread", socket, loginField.getText(), passField.getText());
+            new Client(loginField.getText(), passField.getText());
         } catch (IOException e) {
             System.out.println("Соединение не удалось");
         }
