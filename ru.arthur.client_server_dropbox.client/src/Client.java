@@ -42,6 +42,7 @@ public class Client {
 
             // Start the connection attempt.
             Channel ch = b.connect(HOST, PORT).sync().channel();
+            System.out.println("Коннект произошел");
 
             // Read commands from the stdin.
             ChannelFuture lastWriteFuture = null;

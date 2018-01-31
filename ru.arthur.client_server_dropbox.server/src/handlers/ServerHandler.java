@@ -24,13 +24,11 @@ public class ServerHandler extends ChannelInboundHandlerAdapter { // (1)
          * В примере ниже вы не  обязательно использовать
          * .release т.к netty делает это за нас, если вы делаете *Вывод* сообщений
          */
-        System.out.println(msg);
         ByteBuf in = (ByteBuf) msg;
         try {
             while (in.isReadable()) {
                 System.out.print((char) in.readByte());
                 System.out.flush();
-                ctx.writeAndFlush("msg");
 
             }
         } finally {

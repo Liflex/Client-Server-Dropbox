@@ -3,6 +3,7 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 
+import javax.net.ssl.SSLException;
 import java.io.IOException;
 import java.net.Socket;
 
@@ -20,15 +21,8 @@ public class Controller {
 
 
 
-    public void tryToLogin() throws Exception {
-        try {
-            System.out.println("Пытаемся соединиться");
-            Socket socket = new Socket("localhost",8080);
-            System.out.println("Соединились =");
-            new Client(loginField.getText(), passField.getText());
-        } catch (IOException e) {
-            System.out.println("Соединение не удалось");
-        }
+    public void tryToLogin() throws SSLException {
+        new Client(loginField.getText(), passField.getText()).run();
         loginField.clear();
         passField.clear();
     }
