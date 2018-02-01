@@ -2,7 +2,7 @@
 public class ServerStart {
     static private Server server;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         int port;
         if (args.length > 0) {
             port = Integer.parseInt(args[0]);
@@ -10,6 +10,6 @@ public class ServerStart {
             port = 8080;
         }
         server = new Server(port);
-        server.start();
+        server.run();
     }
 }

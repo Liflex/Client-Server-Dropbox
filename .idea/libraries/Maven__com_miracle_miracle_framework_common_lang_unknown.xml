@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.miracle:miracle-framework-common-lang:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/miracle/miracle-framework-common-lang/unknown/miracle-framework-common-lang-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/miracle/miracle-framework-common-lang/unknown/miracle-framework-common-lang-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/miracle/miracle-framework-common-lang/unknown/miracle-framework-common-lang-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

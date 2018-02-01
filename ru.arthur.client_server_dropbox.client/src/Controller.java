@@ -21,8 +21,8 @@ public class Controller {
 
 
 
-    public void tryToLogin() throws SSLException {
-        new Client(loginField.getText(), passField.getText()).run();
+    public void tryToLogin() throws Exception {
+        new Client(loginField.getText(), passField.getText()).start();
         loginField.clear();
         passField.clear();
     }

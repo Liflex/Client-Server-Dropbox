@@ -1,15 +1,19 @@
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
+import io.netty.channel.ChannelInitializer;
 import io.netty.channel.EventLoopGroup;
+import io.netty.channel.local.LocalChannel;
 import io.netty.channel.nio.NioEventLoopGroup;
+import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.ssl.SslContext;
 import io.netty.handler.ssl.SslContextBuilder;
 import io.netty.handler.ssl.util.InsecureTrustManagerFactory;
 
-import javax.net.ssl.SSLException;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
 
 /**
  * Created by Tom on 23.11.2017.
@@ -18,6 +22,8 @@ public class Client {
 
     static final String HOST = "localhost";
     static final int PORT = 8080;
+    static final int SIZE = Integer.parseInt(System.getProperty("size", "256"));
+    static final boolean SSL = System.getProperty("ssl") != null;
 
     private final String password;
     private final String login;
@@ -28,8 +34,12 @@ public class Client {
         this.login = login;
     }
 
-    public void run() throws SSLException {
-// Configure SSL.
+    public static void main(String[] args) throws Exception {
+        new Client("sd", "dsf").start();
+    }
+
+    public void start() throws Exception  {
+        // Configure SSL.git
         final SslContext sslCtx = SslContextBuilder.forClient()
                 .trustManager(InsecureTrustManagerFactory.INSTANCE).build();
 
@@ -38,39 +48,13 @@ public class Client {
             Bootstrap b = new Bootstrap();
             b.group(group)
                     .channel(NioSocketChannel.class)
-                    .handler(new SecureClientInitializer(sslCtx));
+                    .handler(new PipeLineFactory(sslCtx));
 
             // Start the connection attempt.
-            Channel ch = b.connect(HOST, PORT).sync().channel();
-            System.out.println("Коннект произошел");
+            ChannelFuture f = b.connect(HOST, PORT);
+            f.channel().closeFuture().sync();
 
-            // Read commands from the stdin.
-            ChannelFuture lastWriteFuture = null;
-            BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-            for (;;) {
-                String line = in.readLine();
-                if (line == null) {
-                    break;
-                }
-
-                // Sends the received line to the server.
-                lastWriteFuture = ch.writeAndFlush(line + "\r\n");
-
-                // If user typed the 'bye' command, wait until the server closes
-                // the connection.
-                if ("bye".equals(line.toLowerCase())) {
-                    ch.closeFuture().sync();
-                    break;
-                }
-            }
-
-            // Wait until all messages are flushed before closing the channel.
-            if (lastWriteFuture != null) {
-                lastWriteFuture.sync();
-            }
         } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
             e.printStackTrace();
         } finally {
             // The connection is closed automatically on shutdown.
