@@ -47,9 +47,9 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.plexus:plexus-compiler-javac:2.8.2" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.20.Final" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.5" level="project" />
-    <orderEntry type="library" name="Maven: de.javakaffee:kryo-serializers:unknown" level="project" />
-    <orderEntry type="library" name="Maven: com.miracle:miracle-framework-common-lang:unknown" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.miracle:miracle-test-util:unknown" level="project" />
-    <orderEntry type="library" name="Maven: com.esotericsoftware.kryo:kryo:unknown" level="project" />
+    <orderEntry type="library" name="Maven: com.esotericsoftware:kryo:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.esotericsoftware:reflectasm:1.11.3" level="project" />
+    <orderEntry type="library" name="Maven: com.esotericsoftware:minlog:1.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.objenesis:objenesis:2.5.1" level="project" />
   </component>
 </module>
