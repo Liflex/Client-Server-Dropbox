@@ -3,22 +3,15 @@ import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class REGISTERController {
+public class KnifeController {
     private Scene firstScene;
 
     public void setFirstScene(Scene scene) {
         firstScene = scene;
     }
-
     public void openFirstScene(ActionEvent actionEvent) {
         Stage primaryStage = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
         primaryStage.setScene(firstScene);
 
-
-        ClientInit.abstractMessage = new RegisterMessage("Robert", "123456", "test@mail.ru");
-    }
-
-
-
-
+        }
 }
