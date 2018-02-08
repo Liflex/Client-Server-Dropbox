@@ -6,6 +6,7 @@ public class RegisterMessage extends AbstractMessage {
     public RegisterMessage(String login, String password, String email) {
         this.login = login;
         this.password = password;
+        this.email = email;
     }
 
     public String getLogin() { return login; }

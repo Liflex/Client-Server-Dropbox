@@ -18,6 +18,6 @@ public class PipeLineFactory extends ChannelInitializer<SocketChannel> {
         pipeline.addLast(sslCtx.newHandler(ch.alloc(), ClientInit.HOST, ClientInit.PORT));
         // and then business logic.
 
-        pipeline.addLast(new ClientHandler());
+        pipeline.addLast(new Encoder(),new Decoder(),new ClientHandler());
     }
 }

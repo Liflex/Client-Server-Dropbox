@@ -7,14 +7,7 @@ public class ClientHandler extends ChannelInboundHandlerAdapter {
 
 
         public void channelActive(ChannelHandlerContext ctx) throws Exception {
-                AbstractMessage aut = ClientInit.abstractMessage;
-                byte[] data = SerializationUtils.serialize(aut);
-                ByteBuf Object = ctx.alloc().buffer(4);
-                Object.writeBytes(data);
-                final ChannelFuture f = ctx.writeAndFlush(Object);
-                f.addListener((ChannelFutureListener) future -> {
-                        assert f == future;
-                });
+                ctx.writeAndFlush(new RegisterMessage("Liflex", "gena9989", "sdf"));
         }
 
         @Override

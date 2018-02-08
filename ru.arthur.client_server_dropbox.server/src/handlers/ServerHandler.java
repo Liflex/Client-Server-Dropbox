@@ -9,15 +9,7 @@ public class ServerHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) {
-        ByteBuf in = (ByteBuf) msg;
-        byte[] data = new byte[in.readableBytes()];
-        int readerIndex = in.readerIndex();
-        in.getBytes(readerIndex, data);
-        AbstractMessage yourObject = SerializationUtils.deserialize(data);
-        System.out.println(yourObject.getClass());
-        if (yourObject instanceof AuthMessage) {
-            AuthMessage aut = (AuthMessage) yourObject;
+            AuthMessage aut = (AuthMessage) msg;
             System.out.println(aut.getLogin()+" "+aut.getPassword());
-        }
     }
 }
