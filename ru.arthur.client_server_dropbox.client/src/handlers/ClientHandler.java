@@ -7,8 +7,7 @@ public class ClientHandler extends ChannelInboundHandlerAdapter {
 
 
         public void channelActive(ChannelHandlerContext ctx) throws Exception {
-
-                AuthMessage aut = new AuthMessage("dfssd", "gsdgds");
+                AbstractMessage aut = ClientInit.abstractMessage;
                 byte[] data = SerializationUtils.serialize(aut);
                 ByteBuf Object = ctx.alloc().buffer(4);
                 Object.writeBytes(data);

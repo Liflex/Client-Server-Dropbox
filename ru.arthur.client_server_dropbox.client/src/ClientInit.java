@@ -10,23 +10,15 @@ import io.netty.handler.ssl.util.InsecureTrustManagerFactory;
 /**
  * Created by Tom on 23.11.2017.
  */
-public class Client {
+public class ClientInit {
 
     static final String HOST = "localhost";
     static final int PORT = 8080;
     static final int SIZE = Integer.parseInt(System.getProperty("size", "256"));
-
-    private final String password;
-    private final String login;
-
-
-    public Client(String password, String login) {
-        this.password = password;
-        this.login = login;
-    }
+    static AbstractMessage abstractMessage;
 
     public static void main(String[] args) throws Exception {
-        new Client("sd", "dsf").start();
+        new ClientInit().start();
     }
 
     public void start() throws Exception  {

@@ -1,5 +1,3 @@
-package JavaFxGUI;
-
 import javafx.event.ActionEvent;
 import javafx.scene.Node;
 import javafx.scene.Scene;
@@ -16,6 +14,7 @@ public class GUIController {
     public void openSecondScene(ActionEvent actionEvent) {
         Stage primaryStage = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
         primaryStage.setScene(secondScene);
+        ClientInit.abstractMessage = new AuthMessage("Liflex", "gena9989");
     }
 
 

@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/ru/arthur/client_server_dropbox/client/files" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/handlers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/JavaFxGUI" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
