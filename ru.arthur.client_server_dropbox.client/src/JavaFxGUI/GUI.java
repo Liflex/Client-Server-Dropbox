@@ -26,6 +26,7 @@ public class GUI extends Application {
         Parent secondPane = secondPageLoader.load();
         Scene secondScene = new Scene(secondPane, 900, 600);
 
+
         // Page after Login
         // Third Scene
         FXMLLoader thirdPageLoader = new FXMLLoader(getClass().getResource("Knife.fxml"));
