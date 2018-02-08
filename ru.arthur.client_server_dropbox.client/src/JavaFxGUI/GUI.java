@@ -7,7 +7,6 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-import static com.sun.javafx.scene.control.skin.Utils.getResource;
 
 public class GUI extends Application {
 
@@ -39,8 +38,15 @@ public class GUI extends Application {
         primaryStage.show();
 
     }
+
+
     // Launch app
     public static void main(String[] args) {
         launch(args);
     }
+
+
+
+
+
 }
