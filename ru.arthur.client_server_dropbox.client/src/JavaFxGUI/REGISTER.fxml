@@ -10,7 +10,7 @@
     <children>
       <ImageView fitHeight="620.0" fitWidth="900.0" layoutY="-15.0">
          <image>
-            <Image url="@../files/MatrixChoice.png" />
+            <Image url="@JavaFxGUI/files/MatrixChoice.png" />
          </image>
       </ImageView>
         <TextField layoutX="331.0" layoutY="213.0" prefHeight="26.0" prefWidth="237.0" promptText="Login" />
