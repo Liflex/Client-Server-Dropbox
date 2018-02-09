@@ -19,6 +19,7 @@ public class ClientInit extends Thread {
     static final int SIZE = Integer.parseInt(System.getProperty("size", "256"));
     static AbstractMessage in = new CommandMessage(0);
     static AbstractMessage out = new CommandMessage(0);
+    static final AbstractMessage nullAbstract = new CommandMessage(0);
 
     public synchronized void close() {
 

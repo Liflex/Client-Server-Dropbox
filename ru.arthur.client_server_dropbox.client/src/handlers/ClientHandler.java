@@ -11,13 +11,14 @@ public class ClientHandler extends ChannelInboundHandlerAdapter {
         }
 
         @Override
-        public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
+        public void channelRead(ChannelHandlerContext ctx, Object msg) {
                 ClientInit.in = (AbstractMessage) msg;
         }
 
         @Override
-        public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
+        public void channelReadComplete(ChannelHandlerContext ctx) throws InterruptedException {
                 ctx.writeAndFlush(ClientInit.out);
+                ClientInit.out = ClientInit.nullAbstract;
         }
 
         @Override

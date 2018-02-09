@@ -4,15 +4,7 @@
     <list default="true" id="7e6c1436-3895-435e-8171-0e99da3e6a07" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/ClientInit.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/ClientInit.java" />
-      <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUI.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUI.java" />
-      <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUIController.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUIController.java" />
-      <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/REGISTERController.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/REGISTERController.java" />
-      <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/PipeLine.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/PipeLine.java" />
       <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/ClientHandler.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/ClientHandler.java" />
-      <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/Decoder.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/Decoder.java" />
-      <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/Server.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/Server.java" />
-      <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/AuthHandler.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/AuthHandler.java" />
-      <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/Decoder.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/Decoder.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/AuthHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
-              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -61,6 +53,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Decoder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/Decoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="22" column="55" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -89,21 +91,9 @@
       <file leaf-file-name="ClientInit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/ClientInit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="372">
+              <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerStart.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/ServerStart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -121,11 +111,13 @@
       <file leaf-file-name="ClientHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/ClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+            <state relative-caret-position="202">
+              <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
               <folding>
                 <element signature="e#259#260#0" expanded="true" />
                 <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -227,12 +219,12 @@
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/Decoder.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/Decoder.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/PipeLine.java" />
-        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/ClientInit.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/Server.java" />
-        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/AuthHandler.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/REGISTERController.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUIController.java" />
+        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/ClientInit.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/AuthHandler.java" />
       </list>
     </option>
   </component>
@@ -767,7 +759,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518188654864</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ы">
+      <created>1518191484796</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1518191484796</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1157,14 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/Decoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="22" column="55" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1199,18 +1190,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/AuthHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/REGISTERController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUIController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/ClientInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/Decoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="55" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/AuthHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1231,37 +1254,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/ClientInit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUIController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/ClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        <state relative-caret-position="202">
+          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
           <folding>
             <element signature="e#259#260#0" expanded="true" />
             <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
           </folding>
         </state>
       </provider>
