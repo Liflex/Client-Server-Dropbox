@@ -29,8 +29,9 @@ public class GUIController {
     public void openThirdScene(ActionEvent actionEvent) throws Exception {
         Stage primaryStage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
         primaryStage.setScene(thirdScene);
-        ClientInit.abstractMessage = new AuthMessage(login.getText(), password.getText());
-        new ClientInit().start();
+        ClientInit.out = new AuthMessage(login.getText(), password.getText());
+        login.clear();
+        password.clear();
         System.out.println("Login button was pressed");
 
     }

@@ -17,7 +17,8 @@ public class ClientInit extends Thread {
     static final String HOST = "localhost";
     static final int PORT = 8080;
     static final int SIZE = Integer.parseInt(System.getProperty("size", "256"));
-    static AbstractMessage abstractMessage;
+    static AbstractMessage in = new CommandMessage(0);
+    static AbstractMessage out = new CommandMessage(0);
 
     public synchronized void close() {
 

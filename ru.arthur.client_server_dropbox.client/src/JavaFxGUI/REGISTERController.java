@@ -13,9 +13,6 @@ public class REGISTERController {
     public void openFirstScene(ActionEvent actionEvent) {
         Stage primaryStage = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
         primaryStage.setScene(firstScene);
-
-
-        ClientInit.abstractMessage = new RegisterMessage("Robert", "123456", "test@mail.ru");
     }
 
 

@@ -7,7 +7,17 @@ public class ClientHandler extends ChannelInboundHandlerAdapter {
 
         @Override
         public void channelActive(ChannelHandlerContext ctx) {
-                ctx.writeAndFlush(ClientInit.abstractMessage);
+                ctx.writeAndFlush(ClientInit.out);
+        }
+
+        @Override
+        public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
+                ClientInit.in = (AbstractMessage) msg;
+        }
+
+        @Override
+        public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
+                ctx.writeAndFlush(ClientInit.out);
         }
 
         @Override

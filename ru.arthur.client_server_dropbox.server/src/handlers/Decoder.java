@@ -18,6 +18,10 @@ public class Decoder  extends MessageToMessageDecoder<Object> {
             out.add(yourObject);
         } else if (yourObject instanceof AbstractMessage && ServerStart.userlist.get(ctx.channel().id())!=null) {
             out.add(yourObject);
-        } else ctx.close();
+        } else {
+            ctx.writeAndFlush(yourObject);
+            System.out.println("Пусто, отослали обратно");
+        }
+
     }
 }

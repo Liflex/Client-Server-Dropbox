@@ -13,6 +13,7 @@ public class GUI extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
 
+        new ClientInit().start();
         // Getting loader and a pane for Main Login page.
         // Loader will then give a possibility to get related controller
         // First Scene

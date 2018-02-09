@@ -4,15 +4,15 @@
     <list default="true" id="7e6c1436-3895-435e-8171-0e99da3e6a07" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/ClientInit.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/ClientInit.java" />
+      <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUI.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUI.java" />
       <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUIController.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUIController.java" />
-      <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/PipeLineFactory.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/PipeLine.java" />
+      <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/REGISTERController.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/REGISTERController.java" />
+      <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/PipeLine.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/PipeLine.java" />
       <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/ClientHandler.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/ClientHandler.java" />
-      <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/PipelineFactory.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/Pipeline.java" />
+      <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/Decoder.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/Decoder.java" />
       <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/Server.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/Server.java" />
-      <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/ServerStart.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/ServerStart.java" />
-      <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/User.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/User.java" />
+      <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/AuthHandler.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/AuthHandler.java" />
       <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/Decoder.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/Decoder.java" />
-      <change beforePath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/ServerHandler.java" afterPath="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/AuthHandler.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,8 +49,8 @@
       <file leaf-file-name="AuthHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/AuthHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="275">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -59,55 +59,29 @@
       <file leaf-file-name="GUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            <state relative-caret-position="153">
+              <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Decoder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/Decoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GUIController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GUIController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUIController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+            <state relative-caret-position="437">
+              <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GUI.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUI.fxml">
+      <file leaf-file-name="REGISTERController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/REGISTERController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            <state relative-caret-position="234">
+              <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
               <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/ClientHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-              <folding>
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -115,19 +89,44 @@
       <file leaf-file-name="ClientInit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/ClientInit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="48" column="38" lean-forward="false" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+            <state relative-caret-position="186">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PipeLine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/PipeLine.java">
+      <file leaf-file-name="ServerStart.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/ServerStart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+            <state relative-caret-position="546">
+              <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/ClientHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+              <folding>
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,8 +134,8 @@
       <file leaf-file-name="Decoder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/Decoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            <state relative-caret-position="324">
+              <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -183,10 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/src/ClientLauncher.java" />
-        <option value="$PROJECT_DIR$/server/src/ru/arthur/client_server_dropbox/server/ClientListener.java" />
-        <option value="$PROJECT_DIR$/server/src/ClientListener.java" />
-        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/ServerSocketThread.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/ClientListener.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/ServerMain.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/resources/registerform.fxml" />
@@ -195,7 +190,6 @@
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/SocketThread.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/SecureChatClientInitializer.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/SecureClientInitializer.java" />
-        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/Server.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/SerializeType.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/KryoPoolFactory.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/NettyKryoEncoder.java" />
@@ -216,24 +210,29 @@
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.common/src/RegisterMessage.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/Encoder.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.common/src/AbstractMessage.java" />
-        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/Decoder.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/PipeLineFactory.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/Encoder.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/PipelineFactory.java" />
-        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/REGISTERController.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUI.fxml" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/KnifeController.java" />
-        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUI.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/Knife.fxml" />
-        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/Pipeline.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/ServerHandler.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/ServerStart.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/User.java" />
+        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUI.java" />
+        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/Cdfsdg.java" />
+        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/Cd.java" />
+        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/SimpleHandler.java" />
+        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/Pipeline.java" />
+        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/Decoder.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/Decoder.java" />
-        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUIController.java" />
+        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/PipeLine.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/ClientInit.java" />
-        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/Server.java" />
         <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/AuthHandler.java" />
+        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/REGISTERController.java" />
+        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUIController.java" />
+        <option value="$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/ClientHandler.java" />
       </list>
     </option>
   </component>
@@ -326,6 +325,17 @@
               <item name="ru.arthur.client_server_dropbox.client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="JavaFxGUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Client_Server_Dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Client-Server-Dropbox" type="462c0819:PsiDirectoryNode" />
+              <item name="ru.arthur.client_server_dropbox.common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Client_Server_Dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Client-Server-Dropbox" type="462c0819:PsiDirectoryNode" />
+              <item name="ru.arthur.client_server_dropbox.common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Client_Server_Dropbox" type="b2602c69:ProjectViewProjectNode" />
@@ -678,8 +688,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ServerStart" />
-        <item index="1" class="java.lang.String" itemvalue="Application.GUI (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GUI (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ServerStart" />
         <item index="2" class="java.lang.String" itemvalue="Application.ClientInit" />
         <item index="3" class="java.lang.String" itemvalue="Application.GUI" />
         <item index="4" class="java.lang.String" itemvalue="Application.ClientLauncher (1)" />
@@ -750,7 +760,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518126139623</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ы">
+      <created>1518188654863</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1518188654864</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -767,6 +784,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -776,7 +794,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22410148" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28913045" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28913045" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1643026" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -850,7 +868,8 @@
     <MESSAGE value="Немножко клиента" />
     <MESSAGE value="Немного изменен код, добавлено защищенное соединение SSL" />
     <MESSAGE value="GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="GUI" />
+    <MESSAGE value="ы" />
+    <option name="LAST_COMMIT_MESSAGE" value="ы" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -878,11 +897,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/KryoPoolFactory.java" />
-    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/NettyKryoEncoder.java" />
-    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/NettyKryoDecoder.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/buffer/ByteBuf.java" />
-    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/NettyKryoEncoder.java" />
     <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -963,33 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.common/src/AuthMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/REGISTERController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#222#223#0" expanded="false" />
-            <element signature="e#256#257#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/KnifeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/REGISTER.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1005,6 +992,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,22 +1005,6 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelInboundHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
@@ -1048,32 +1020,6 @@
         <state relative-caret-position="544">
           <caret line="47" column="22" lean-forward="false" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/Encoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/ServerStart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1104,34 +1050,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/Pipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1831">
           <caret line="140" column="6" lean-forward="false" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1147,10 +1069,156 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/KnifeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelInboundHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="21" column="54" lean-forward="false" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelOutboundHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-584">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelOutboundHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/Cd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/Pipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="21" column="71" lean-forward="false" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/PipeLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/Encoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.common/src/AuthMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/Decoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="22" column="55" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/ServerStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/SimpleHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/AuthHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/REGISTERController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/Decoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        <state relative-caret-position="324">
+          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1163,54 +1231,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/ClientHandler.java">
+    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/ClientInit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="48" column="38" lean-forward="false" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/PipeLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/Decoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.server/src/handlers/AuthHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="186">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/JavaFxGUI/GUIController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        <state relative-caret-position="437">
+          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ru.arthur.client_server_dropbox.client/src/handlers/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

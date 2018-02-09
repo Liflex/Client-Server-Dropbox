@@ -14,6 +14,12 @@ public class AuthHandler extends ChannelInboundHandlerAdapter {
             System.out.println(aut.getLogin());
             if (nick != null) {
                 ServerStart.userlist.put(ctx.channel().id(), new User(nick));
-            } else ctx.close();
+            }
+
+    }
+
+    @Override
+    public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
+        ctx.writeAndFlush(Server.out);
     }
 }

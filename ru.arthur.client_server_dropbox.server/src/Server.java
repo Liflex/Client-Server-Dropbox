@@ -11,6 +11,9 @@ import io.netty.handler.ssl.util.SelfSignedCertificate;
 public class Server {
 
     private int port;
+    static AbstractMessage in = new CommandMessage(0);
+    static AbstractMessage out = new CommandMessage(0);
+
 
     public Server(int port) {
         this.port = port;
