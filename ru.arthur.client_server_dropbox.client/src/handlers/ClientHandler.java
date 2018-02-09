@@ -5,9 +5,15 @@ import org.apache.commons.lang3.SerializationUtils;
 
 public class ClientHandler extends ChannelInboundHandlerAdapter {
 
+        @Override
+        public void channelActive(ChannelHandlerContext ctx) {
+                ctx.writeAndFlush(ClientInit.abstractMessage);
+        }
 
-        public void channelActive(ChannelHandlerContext ctx) throws Exception {
-                ctx.writeAndFlush(new RegisterMessage("Liflex", "gena9989", "sdf"));
+        @Override
+        public void channelInactive(ChannelHandlerContext ctx) {
+                System.out.println("Неудачная авторизация");
+                ctx.close();
         }
 
         @Override

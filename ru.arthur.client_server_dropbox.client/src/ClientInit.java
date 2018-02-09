@@ -7,31 +7,33 @@ import io.netty.handler.ssl.SslContext;
 import io.netty.handler.ssl.SslContextBuilder;
 import io.netty.handler.ssl.util.InsecureTrustManagerFactory;
 
+import javax.net.ssl.SSLException;
+
 /**
  * Created by Tom on 23.11.2017.
  */
-public class ClientInit {
+public class ClientInit extends Thread {
 
     static final String HOST = "localhost";
     static final int PORT = 8080;
     static final int SIZE = Integer.parseInt(System.getProperty("size", "256"));
     static AbstractMessage abstractMessage;
 
-    public static void main(String[] args) throws Exception {
-        new ClientInit().start();
+    public synchronized void close() {
+
     }
 
-    public void start() throws Exception  {
+    @Override
+    public void run() {
         // Configure SSL.git
-        final SslContext sslCtx = SslContextBuilder.forClient()
-                .trustManager(InsecureTrustManagerFactory.INSTANCE).build();
-
         EventLoopGroup group = new NioEventLoopGroup();
         try {
+            final SslContext sslCtx = SslContextBuilder.forClient()
+                    .trustManager(InsecureTrustManagerFactory.INSTANCE).build();
             Bootstrap b = new Bootstrap();
             b.group(group)
                     .channel(NioSocketChannel.class)
-                    .handler(new PipeLineFactory(sslCtx));
+                    .handler(new PipeLine(sslCtx));
 
             // Start the connection attempt.
             ChannelFuture f = b.connect(HOST, PORT);
@@ -39,15 +41,12 @@ public class ClientInit {
 
         } catch (InterruptedException e) {
             e.printStackTrace();
+        } catch (SSLException e) {
+            e.printStackTrace();
         } finally {
             // The connection is closed automatically on shutdown.
             group.shutdownGracefully();
+            System.out.println("Closed");
         }
-    }
-
-
-
-    public synchronized void close() {
-
     }
 }

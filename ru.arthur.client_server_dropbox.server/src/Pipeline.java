@@ -3,11 +3,12 @@ import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.handler.ssl.SslContext;
 
-public class PipeLineFactory extends ChannelInitializer<SocketChannel> {
+
+public class Pipeline extends ChannelInitializer<SocketChannel> {
 
     private SslContext sslCtx;
 
-    public PipeLineFactory(SslContext sslCtx) {
+    public Pipeline(SslContext sslCtx) {
         this.sslCtx = sslCtx;
     }
 
@@ -15,9 +16,9 @@ public class PipeLineFactory extends ChannelInitializer<SocketChannel> {
     public void initChannel(SocketChannel ch) {
         ChannelPipeline pipeline = ch.pipeline();
 
-        pipeline.addLast(sslCtx.newHandler(ch.alloc(), ClientInit.HOST, ClientInit.PORT));
-        // and then business logic.
+        pipeline.addLast(sslCtx.newHandler(ch.alloc()));
 
-        pipeline.addLast(new Encoder(),new Decoder(),new ClientHandler());
+        // and then business logic.
+        pipeline.addLast(new Encoder(),new Decoder(), new AuthHandler());
     }
 }

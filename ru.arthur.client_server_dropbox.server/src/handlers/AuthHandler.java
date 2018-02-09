@@ -5,11 +5,15 @@ import org.apache.commons.lang3.SerializationUtils;
 
 import java.io.IOException;
 
-public class ServerHandler extends ChannelInboundHandlerAdapter {
+public class AuthHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) {
             AuthMessage aut = (AuthMessage) msg;
-            System.out.println(aut.getLogin()+" "+aut.getPassword());
+            String nick = SQLiteBase.getNick(aut.getLogin(), aut.getPassword());
+            System.out.println(aut.getLogin());
+            if (nick != null) {
+                ServerStart.userlist.put(ctx.channel().id(), new User(nick));
+            } else ctx.close();
     }
 }

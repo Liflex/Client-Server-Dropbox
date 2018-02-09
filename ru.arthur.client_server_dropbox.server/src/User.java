@@ -7,18 +7,15 @@ public class User {
     private boolean isAuthorized;
     private int access;
     private String homeFolder;
+    private String nick;
 
-    User(){
-        this.isAuthorized = false;
-    }
-
-    void authError() {
-//        sendMsg(Messages.getAuthError());
-//        close();
+    User(String nick){
+        this.isAuthorized = true;
+        this.nick = nick;
     }
 
     String getNick() {
-        return "s";
+        return nick;
     }
 
     public boolean isAuthorized() {

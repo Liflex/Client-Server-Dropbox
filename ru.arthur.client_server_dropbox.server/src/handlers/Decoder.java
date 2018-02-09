@@ -14,8 +14,10 @@ public class Decoder  extends MessageToMessageDecoder<Object> {
         int readerIndex = in.readerIndex();
         in.getBytes(readerIndex, data);
         AbstractMessage yourObject = SerializationUtils.deserialize(data);
-        if (yourObject instanceof AuthMessage) {
+        if (yourObject instanceof AuthMessage && ServerStart.userlist.get(ctx.channel().id())==null) {
             out.add(yourObject);
-        } else ctx.channel().close();
+        } else if (yourObject instanceof AbstractMessage && ServerStart.userlist.get(ctx.channel().id())!=null) {
+            out.add(yourObject);
+        } else ctx.close();
     }
 }
